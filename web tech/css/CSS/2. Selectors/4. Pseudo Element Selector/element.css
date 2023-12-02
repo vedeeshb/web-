@@ -1,0 +1,34 @@
+h1::before{
+    content: "to webtech class....";
+}
+
+
+
+h1::first-letter{
+    background-color: aqua;
+}
+
+p::first-line{
+    background-color: yellow;
+    color: blue;
+}
+
+li::marker{
+    color: blue;
+}
+
+li::selection{
+    background-color: darkgoldenrod;
+}
+
+a:hover{
+    color: red;
+}
+a:active{
+    color:aliceblue;
+}
+
+
+h1:first-child{
+    color:blueviolet
+}

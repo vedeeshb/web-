@@ -1,0 +1,17 @@
+div p{
+    background-color: aquamarine;
+    color: bisque;
+}
+
+section>p{
+    background-color: red;
+}
+
+div+p{
+    color: rgb(24, 14, 136);
+    background-color: black;
+}
+
+div~i{
+    font-size: xx-large;
+}

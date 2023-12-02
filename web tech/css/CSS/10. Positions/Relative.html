@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            border: 2px solid magenta;
+            margin: 3px;
+            height: 600px;
+            display: flex;
+        }
+
+        .child{
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+        }
+
+        #box1{
+            background-color: chartreuse;
+
+        }
+
+        #box2{
+            background-color: purple;
+        }
+
+        #box3{
+            background-color: rebeccapurple;
+            position: relative;
+            top:30px;
+            left:50px;
+
+
+            /* It move from its parent (container) */
+        }
+        #box4{
+            background-color: red;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="child" id="box1"></div>
+        <div class="child" id="box2"></div>
+        <div class="child" id="box3"></div>
+        <div class="child" id="box4"></div>
+    </div>
+    
+</body>
+</html>

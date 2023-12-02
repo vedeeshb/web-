@@ -1,0 +1,27 @@
+#h1{
+    background-color: darkcyan;
+    color: bisque;
+}
+
+
+.h2{
+    color: brown;
+    background-color: aquamarine;
+}
+
+
+p{
+    background-color: rgb(62, 111, 154);
+}
+
+
+
+
+h3,i,pre{
+    color: blue;
+}
+
+
+*{
+    background-color: aquamarine;
+}

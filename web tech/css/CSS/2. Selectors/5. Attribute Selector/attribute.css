@@ -1,0 +1,15 @@
+[target]
+{
+    background-color: yellow;
+    color: aqua;
+}
+
+[id="h1"]{
+    background-color: blanchedalmond ;
+}
+
+
+[id*="h2"]
+{
+    color: blue;
+}
